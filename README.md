@@ -5,7 +5,7 @@ This repository hosts the work done by Django Brunink and Thaine H. Assumpção 
 * **Ipython jupyter notebook**: code with an overview of the U-net as described in the original article and the steps taken to reproduce some of the article's results.
 * **Reproducibility folder**: data needed for the notebook to be run
    * U-Net/Data Set: datasets used in the article's experiments (obtained by registering to the [EM segmentation challenge](http://brainiac2.mit.edu/isbi_challenge/) and downloaded from the [ISBI cell tracking challenge](http://celltrackingchallenge.net/) website)
-   * U-Net/Trained models: pre-trained models, used to generate some graphs
+   * U-Net/Trained models: location to be stored trained models
 
 [1] Ronneberger, O., Fischer, P., & Brox, T. (2015, October). U-net: Convolutional networks for biomedical image segmentation. In International Conference on Medical image computing and computer-assisted intervention (pp. 234-241). Springer, Cham.
 
@@ -17,3 +17,8 @@ The code was developed using Python 3 and we've included pip installations for s
 * `torchsummary`
 * [`elasticdeform`](https://github.com/gvtulder/elasticdeform)
 * [`tifffile`](https://pypi.org/project/tifffile/)
+
+## Pre-trained models
+
+The pre-trained models are too heavy to be uploaded in GitHub and therefore can be downloaded from:
+https://drive.google.com/drive/folders/1a_0PXjVT5s2ituMdzehn2UAMPdFQsPOF?usp=sharing
